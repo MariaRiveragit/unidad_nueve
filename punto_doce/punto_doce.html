@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- Bootstrap CSS -->
@@ -21,7 +22,9 @@
       crossorigin="anonymous"/>
     
   <!--Llamado a JavaScrprit-->
-  <script src="punto_doce.js" defer></script>
+  <script src="./js/punto_doce.js"></script>
+  <!--Llamado a Css-->
+  <link rel="stylesheet" href="css/punto_doce.css">
   <title>My music doce</title>
 </head>
 
@@ -57,6 +60,7 @@
         d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
     </symbol>
   </svg>
+  <!--Data bs theme declara si el inicio sera dark o light-->
   <nav class="navbar navbar-expand-lg bg-primary py-3" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand pb-2" href="#"></a>
@@ -70,7 +74,7 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
         </ul>
-
+<!--Botones del menu y del cambio de dark,ligth y auto-->
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item dropdown w-25" data-bs-theme="light">
             <button class="btn btn-link nav-link py-1 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
@@ -112,6 +116,7 @@
       </div>
     </div>
   </nav>
+  <!-- El script se cierra aqui para que la libreria funcione bien-->
   <script
   src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
@@ -147,7 +152,7 @@
       <input type="password" class="form-control" placeholder="*********" id="exampleInputPassword1">
     </div>
 
-    <!--propuesta-->
+    <!--Propuesta con boostrap-->
 
     <form class="row g-3">
       <div class="row">
@@ -160,7 +165,7 @@
         </label>
         <input type="text" class="form-control" id="inputAddress" placeholder="1234 calle principal">
       </div>
-
+<!--Aqui se llama libreria para seleccionar ciudad-->
       <div class="col-md-4">
         <label for="inputCiudadLine2" class="control-label">Ciudad</label>
         <select class="form-control" id="inputCiudadLine2">
@@ -225,4 +230,11 @@
     <body class="p-3 m-0 border-0 bd-example m-0 border-0">
     </body>
   </form>
+  <div>
+    <footer>
+        <h3 id="footer_nombre">Maria Fernanda Rivera Casallas <br>
+            maferivec1009@gmail.com
+        </h3>
+    </footer>
+</div>
 </body>

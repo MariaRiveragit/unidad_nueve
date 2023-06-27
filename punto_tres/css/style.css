@@ -103,7 +103,7 @@ a {
     padding: 10px;
 
 }
-
+/*Hover a los enlaces*/
 a:hover {
     background-color: yellowgreen;
     border-radius: 20px;
@@ -211,8 +211,9 @@ header .phone_header {
     border-radius: 30px;
 
 }
+/*Footer*/
 
-.footer_nombre {
+#footer_nombre {
     font-size: small;
     border: 2px solid white;
     margin-left: 15px;
@@ -221,3 +222,6 @@ header .phone_header {
     background-color: #020917;
     text-align: center;
 }
+
+
+
